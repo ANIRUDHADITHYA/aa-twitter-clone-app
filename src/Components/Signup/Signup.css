@@ -1,0 +1,16 @@
+.input-name-container {
+    display: flex;
+}
+
+.input-container.right {
+    margin-right: 5px;
+}
+
+.input-container.left {
+    margin-left: 5px;
+}
+
+.already-have-acc {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
