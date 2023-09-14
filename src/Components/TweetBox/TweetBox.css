@@ -1,0 +1,81 @@
+.tweetbox {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid var(--light-grey-color);
+    
+}
+
+.tweetbox-form {
+    display: flex;
+    width: 100%;
+}
+
+.tweetbox-form-field {
+    margin-left: 1rem;
+    flex: 1;
+}
+.tweetbox-input {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tweetbox-input textarea {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid var(--light-grey-color);
+    margin-bottom: 1rem;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.tweetbox-input textarea::placeholder {
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.tweetbox-input textarea:focus {
+    outline: none;
+}
+
+.tweetbox-btn {
+    background-color: var(--light-blue-color);
+    border-radius: 33px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    transition: 0.2s;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.tweetbox-btn.active {
+    background-color: var(--primary-color);
+}
+
+.tweetbox-btn.active:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.tweetbox-icons {
+    color: var(--primary-color);
+}
+
+.tweetbox-icon {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.tweetbox .profile-pic {
+    width: 45px;
+    height: 45px;
+}
+
+.tweetbox .profile-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 33px;
+}

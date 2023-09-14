@@ -1,0 +1,39 @@
+.home-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sidebar-main-container {
+    padding-left: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100vh;
+    background-color: white;
+    border-right: 1px solid var(--light-grey-color);
+    overflow-y: auto; 
+    z-index: 1;
+    padding-top: 10px;
+  }
+  
+
+  .main-content {
+    position: fixed;
+    width: calc(100vw - 700px);
+    z-index: 1;
+  }
+  
+  .widgets-main-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100vh;
+    background-color: white;
+    overflow-y: auto;
+    z-index: 1;
+    border-left: 1px solid var(--light-grey-color);
+    padding:0px 25px;
+  }
+  

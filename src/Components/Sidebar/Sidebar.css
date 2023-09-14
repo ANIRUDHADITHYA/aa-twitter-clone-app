@@ -1,0 +1,138 @@
+.sidebar-section {
+    padding: 0px 30px;
+}
+
+.twitter-icon {
+    color: var(--primary-color);
+    font-size: 32px !important;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 13px 15px;
+    cursor: pointer;
+    border-radius: 33px;
+    justify-content: start;
+    width: fit-content;
+    transition: 0.2s;
+}
+
+
+.sidebar-item:hover {
+    background-color: var(--light-grey-color);
+}
+
+.sidebar-item h2 {
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.sidebar-item-active h2 {
+    font-weight: 600;
+
+}
+
+.tweet-post-btn {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-radius: 33px;
+    padding: 15px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    width: 100%;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tweet-post-btn:hover {
+    background-color: var(--primary-hover-color);
+}
+
+
+
+.sidebar-account-card {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    padding: 13px 15px;
+    transition: 0.1s;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.sidebar-account-card .profile-pic {
+    width: 35px;
+    height: 35px;
+}
+
+.sidebar-account-card .profile-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 33px;
+}
+
+.profile-details {
+    padding: 0px 10px;
+}
+
+.profile-details h3 {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.profile-details p {
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+.sidebar-account-card:hover {
+    background-color: var(--light-grey-color);
+    border-radius: 33px;
+}
+
+.tooltip-content {
+    visibility: hidden;
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 0px;
+    transition: opacity 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-account-card:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-content button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 15px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.tooltip-content button:hover {
+    background-color: var(--light-grey-color);
+}

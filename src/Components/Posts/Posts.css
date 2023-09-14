@@ -1,0 +1,9 @@
+.post-header{
+    border-bottom: 1px solid var(--light-grey-color);
+}
+
+.post-header h1 {
+    padding: 10px 15px;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
