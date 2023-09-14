@@ -14,3 +14,12 @@
     padding-top: 10px;
     padding-bottom: 50px;
 }
+
+.sigin-popup-container.signup h2 {
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+.error-msg {
+    padding-bottom: 10px;
+}

@@ -64,14 +64,14 @@
 
 .sigin-popup-container .input-container input {
     width: 100%;
-    padding-bottom: 9px;
-    padding-top: 29px;
+    padding-bottom: 4px;
+    padding-top: 24px;
     padding-left: 10px;
     padding-right: 10px;
     border: none;
     border: 1px solid var(--secondary-color);
     outline: none;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 5px;
     color: var(--secondary-color);
 }
@@ -81,7 +81,7 @@
     top: 0;
     left: 0;
     font-size: 18px;
-    padding: 20px 10px;
+    padding: 15px 10px;
     pointer-events: none;
     transition: 0.2s ease-out;
     color: var(--secondary-color);
@@ -89,7 +89,7 @@
 
 .sigin-popup-container .input-container input:focus+label,
 .sigin-popup-container .input-container input:valid+label {
-    top: -15px;
+    top: -10px;
     font-size: 14px;
     color: var(--primary-color);
 
@@ -97,8 +97,8 @@
 
 .sigin-popup-container .input-container input:focus {
     border: 2px solid var(--primary-color);
-    padding-bottom: 9px;
-    padding-top: 29px;
+    padding-bottom: 4px;
+    padding-top: 24px;
 }
 
 .sigin-popup-container .forgot-psw-btn {
