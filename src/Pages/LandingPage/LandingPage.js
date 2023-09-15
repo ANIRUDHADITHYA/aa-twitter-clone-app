@@ -18,7 +18,7 @@ const LandingPage = () => {
                         <Player
                             autoplay
                             loop
-                            src="https://lottie.host/5817ea54-20cb-4802-9509-95e12b826df4/sbzzrVan9c.json" >
+                            src="/Asserts/logoani.json" >
                         </Player>
                     </div>
                     <div className="landing-account-section">

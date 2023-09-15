@@ -22,6 +22,9 @@
     position: fixed;
     width: calc(100vw - 700px);
     z-index: 1;
+    height: 100%;
+    overflow-y: auto; 
+    max-height: 100vh;
   }
   
   .widgets-main-container {
@@ -37,3 +40,11 @@
     padding:0px 25px;
   }
   
+
+  .main-content::-webkit-scrollbar {
+    width: 0.4em;
+  }
+  
+  .main-content::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+  }

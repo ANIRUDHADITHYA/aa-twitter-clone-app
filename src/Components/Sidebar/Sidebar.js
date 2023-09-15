@@ -2,6 +2,7 @@ import "./Sidebar.css";
 
 import { ArticleOutlined, GroupAddOutlined, Home, MailOutline, MoreHoriz, NotificationsNoneOutlined, PermIdentity, Search, Twitter } from '@mui/icons-material';
 import SidebarItems from "./SidebarItems";
+import { Link } from "react-router-dom";
 
 const Sidebar = (props) => {
 
@@ -12,13 +13,13 @@ const Sidebar = (props) => {
     return (
         <div className="sidebar-section">
             <Twitter className="twitter-icon" />
-            <SidebarItems active Icon={Home} text="Home" />
+            <Link to={`/home`}><SidebarItems active Icon={Home} text="Home" /></Link>
             <SidebarItems Icon={Search} text="Explore" />
             <SidebarItems Icon={NotificationsNoneOutlined} text="Notifications" />
             <SidebarItems Icon={MailOutline} text="Message" />
             <SidebarItems Icon={ArticleOutlined} text="Lists" />
             <SidebarItems Icon={GroupAddOutlined} text="Communities" />
-            <SidebarItems Icon={PermIdentity} text="Profile" />
+            <Link to={`/${props.user.username}`}><SidebarItems Icon={PermIdentity} text="Profile" /></Link>
             <SidebarItems Icon={MoreHoriz} text="More" />
 
             <button className="tweet-post-btn">

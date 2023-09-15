@@ -7,3 +7,59 @@
     font-size: 22px;
     padding-bottom: 30px;
 }
+
+.tweet-header .profile-pic {
+    width: 35px;
+    height: 35px;
+}
+
+.tweet-header .profile-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 33px;
+}
+
+.tweet-feeds {
+    margin: 10px;
+    border: 1px solid var(--light-grey-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tweet-header {
+    display: flex;
+    align-items: center;
+}
+
+.tweet-header h3 {
+    padding: 0px 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.tweet-header h4 {
+    padding: 0px 5px;
+    font-size: 14px;
+    color: var(--secondary-color);
+    text-transform: lowercase;
+}
+
+.tweet-body {
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+.tweet-feeds a {
+    text-decoration: none;
+    transition: 0.3;
+}
+
+.tweet-feeds a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}

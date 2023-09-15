@@ -10,12 +10,6 @@ const ProtectRouter = ({ children }) => {
 
     const [cookies, setCookie, removeCookie] = useCookies([]);
 
-
-    const logout = () => {
-        removeCookie("jwt");
-        navigate("/")
-    };
-
     useEffect(() => {
         const verifyUser = async () => {
             if (!cookies.jwt) {

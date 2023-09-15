@@ -1,0 +1,131 @@
+.profile-section {
+    position: relative;
+    border-bottom: 1px solid #e1e8ed;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-header {
+    flex: 1;
+    padding: 10px 20px;
+  }
+  
+  .profile-header h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+  .profile-header p {
+    font-size: 14px;
+    color: var(--secondary-color);
+    text-transform: lowercase;
+  }
+  
+  .profile-images-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-cover {
+    width: calc(100vw - 700px);
+    height: 280px;
+  }
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    background-color: #e1e8ed;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: -75px;
+    left: 30px;
+    border: 3px solid var(--secondary-color);
+  }
+  
+  .profile-cover img,
+  .profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-details-container {
+    position: relative;
+    top: -60px;
+    padding: 0px 20px;
+  }
+  
+  .profile-details-container h2 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0;
+  }
+  .profile-details-container h3 {
+    font-size: 14px;
+    text-transform: lowercase;
+    margin: 0;
+    color: var(--secondary-color);
+  }
+  
+  .profile-follows {
+    position: relative;
+    top: -50px;
+    padding: 0px 20px;
+  }
+  
+  .profile-follows h4 {
+    font-size: 14px;
+    margin-right: 20px;
+    display: inline;
+    cursor: pointer;
+  }
+  
+  .profile-follows h4 span {
+    color: var(--secondary-color);
+  }
+  .profile-follows h4:last-child {
+    margin-right: 0;
+  }
+  
+  .profile-follows h4:hover {
+    text-decoration: underline;
+  }
+
+  .profile-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .profile-follow-btn {
+    border: none;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 33px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    right: 30px;
+    top: -50px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+  .profile-follow-btn:hover {
+    background-color: var(--primary-color);
+  }
+
+  .profile-posts {
+    position: relative;
+    top: -20px;
+    margin: 0px 20px;
+    border-bottom: 3px solid var(--primary-color);
+    width: fit-content;
+
+  }
